@@ -26,13 +26,14 @@
             %span.icon-bar
             %span.icon-bar
           = link_to tweets_path, class: "navbar-brand" do
-            Mini Twitter
+            %span.twitter
         #navbar.collapse.navbar-collapse
           %ul.nav.navbar-nav
-            %li.active
+            %li{:class => "#{'active' if params[:controller] == 'index'}"}
               = link_to "Home", tweets_path
-            %li
+            %li{:class => "#{'active' if params[:controller] == 'New Tweet'}"}
               = link_to "New Tweet", new_tweet_path
+
 
     .container
       - flash.each do |name, msg|
