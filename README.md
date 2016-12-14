@@ -1,7 +1,7 @@
-Purpose: To create a basic rails app that looks like twitter.
+### Purpose ###
+To create a basic rails app that looks like twitter.
 
-
-How:  
+### How ###
 1. Change the root to the index path in routes.rb
 2. Create a rails scaffold called tweet that includes user_name and text. The end result is to have create_at but that's automatically made by rails.
 3. Add a link in the nav bar to add a new post.
@@ -11,8 +11,7 @@ How:
 7. Change the redirect URL/path for the new and update methods in tweets_controller.rb
 8. If the text includes "http://" or "https://" then use link_to to text.
 
-
-End Result:
+### End Result ###
 https://thawing-retreat-46851.herokuapp.com/
 app/assets/images/twitter-heroku-app.png
 ![Alt text](app/assets/images/twitter-heroku-app.png) "End result of mini twitter"
