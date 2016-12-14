@@ -15,4 +15,4 @@ How:
 End Result:
 https://thawing-retreat-46851.herokuapp.com/
 
-![Alt text](/images/twitter-heroku-app.png "End result of mini twitter"
+![Alt text](/app/images/twitter-heroku-app.png "End result of mini twitter"
