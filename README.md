@@ -17,7 +17,7 @@ To create a basic rails app that looks like twitter.
 12. Style bootstrap with a new theme!
 13. Customize to your taste.
 - - - -
-### End Result ###
+### Result ###
 https://thawing-retreat-46851.herokuapp.com/
 app/assets/images/twitter-heroku-app.png
 ![Alt text](app/assets/images/twitter-heroku-app.png) "End result of mini twitter"
