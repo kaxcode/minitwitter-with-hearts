@@ -8,6 +8,6 @@
 
 tweets = Tweet.create (
 [
-  {user_name: "@roxempire", text: "hello, world"}, {user_name: "@roxempire", text: "hello, again"}, {user_name: "@roxempire", text: "hello, can you hear me?"}, {user_name: "@roxempire", text: "https://www.youtube.com/"}
+  {user_name: "@kaxcode", text: "hello, world"}, {user_name: "@kaxcode", text: "hello, can you hear me?"}, {user_name: "@kaxcode", text: "https://www.youtube.com/"}, {user_name: "@kaxcode", text: "Lollipop cake cotton candy cookie soufflé candy canes marzipan tiramisu sugar plum. Gummi bears tootsie roll soufflé tart powder pie pudding"}
 ]
 )
