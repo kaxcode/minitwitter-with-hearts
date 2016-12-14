@@ -16,6 +16,7 @@ To create a basic rails app that looks like twitter.
 11. Add the upvote method to the tweets_controller.
 12. Style bootstrap with a new theme!
 13. Customize to your taste.
+
 - - - -
 ### Result ###
 https://thawing-retreat-46851.herokuapp.com/
