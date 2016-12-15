@@ -11,7 +11,7 @@ To create a basic rails app that looks like twitter.
 7. Change the redirect URL/path for the new and update methods in tweets_controller.rb.
 8. If the text includes "http://" or "https://" then use link_to to text.
 9. Add the ability to like/heart a tweet.
-  * Generate a model vote with upvote, user_id, and tweet as references.
+  * Generate a model heart with user_id and tweet as references.
 10. Update the routes.rb file with member do upvote.
 11. Add the upvote method to the tweets_controller.
 12. Style bootstrap with a new theme!
