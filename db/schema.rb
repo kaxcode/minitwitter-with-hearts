@@ -10,10 +10,18 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20161213202918) do
+ActiveRecord::Schema.define(version: 20161214235518) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "hearts", force: :cascade do |t|
+    t.integer  "user_id"
+    t.integer  "tweet_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["tweet_id"], name: "index_hearts_on_tweet_id", using: :btree
+  end
 
   create_table "tweets", force: :cascade do |t|
     t.string   "text"
@@ -22,14 +30,5 @@ ActiveRecord::Schema.define(version: 20161213202918) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "votes", force: :cascade do |t|
-    t.boolean  "upvote"
-    t.integer  "user_id"
-    t.integer  "tweet_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.index ["tweet_id"], name: "index_votes_on_tweet_id", using: :btree
-  end
-
-  add_foreign_key "votes", "tweets"
+  add_foreign_key "hearts", "tweets"
 end
